@@ -61,7 +61,7 @@ Suppose you're using the requests library:
 import requests
 import json
 
-url = "http://localhost:5000"
+url = "http://localhost:5000/sms"
 data = {
     'to': ['5555555555'],
     'body': 'This is the text message sent to multiple numbers!'
