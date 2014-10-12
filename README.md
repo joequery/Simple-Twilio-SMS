@@ -64,7 +64,7 @@ import json
 url = "http://localhost:5000/sms"
 data = {
     'to': ['5555555555'],
-    'body': 'This is the text message sent to multiple numbers!'
+    'body': 'This is the text message'
 }
 headers = {'Content-type': 'application/json'}
 r = requests.post(url, data=json.dumps(data), headers=headers)
